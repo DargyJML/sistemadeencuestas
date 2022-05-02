@@ -1,0 +1,220 @@
+mint@mint-VivoBook-ASUSLaptop-X409DAP-M409DA:~$ django-admin
+
+Type 'django-admin help <subcommand>' for help on a specific subcommand.
+
+Available subcommands:
+
+[django]
+    check
+    compilemessages
+    createcachetable
+    dbshell
+    diffsettings
+    dumpdata
+    flush
+    inspectdb
+    loaddata
+    makemessages
+    makemigrations
+    migrate
+    runserver
+    sendtestemail
+    shell
+    showmigrations
+    sqlflush
+    sqlmigrate
+    sqlsequencereset
+    squashmigrations
+    startapp
+    startproject
+    test
+    testserver
+Note that only Django core commands are listed as settings are not properly configured (error: Requested setting INSTALLED_APPS, but settings are not configured. You must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure() before accessing settings.).
+mint@mint-VivoBook-ASUSLaptop-X409DAP-M409DA:~$ sudo apt install python3-django 
+[sudo] password for mint:  
+Leyendo lista de paquetes... Hecho
+Creando árbol de dependencias       
+Leyendo la información de estado... Hecho
+Se instalarán los siguientes paquetes adicionales:
+  python3-sqlparse
+Paquetes sugeridos:
+  bpython3 geoip-database-contrib ipython3 libgdal20 libsqlite3-mod-spatialite
+  python-django-doc python3-bcrypt python3-flup python3-memcache
+  python3-mysqldb python3-psycopg2 python3-selenium python3-sqlite
+  python-sqlparse-doc
+Se instalarán los siguientes paquetes NUEVOS:
+  python3-django python3-sqlparse
+0 actualizados, 2 nuevos se instalarán, 0 para eliminar y 124 no actualizados.
+Se necesita descargar 2.694 kB de archivos.
+Se utilizarán 23,5 MB de espacio de disco adicional después de esta operación.
+¿Desea continuar? [S/n] s
+Des:1 http://archive.ubuntu.com/ubuntu focal/main amd64 python3-sqlparse all 0.2.4-3 [28,1 kB]
+Des:2 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 python3-django all 2:2.2.12-1ubuntu0.11 [2.666 kB]
+Descargados 2.694 kB en 6s (456 kB/s)       
+Seleccionando el paquete python3-sqlparse previamente no seleccionado.
+(Leyendo la base de datos ... 411752 ficheros o directorios instalados actualmen
+te.)
+Preparando para desempaquetar .../python3-sqlparse_0.2.4-3_all.deb ...
+Desempaquetando python3-sqlparse (0.2.4-3) ...
+Seleccionando el paquete python3-django previamente no seleccionado.
+Preparando para desempaquetar .../python3-django_2%3a2.2.12-1ubuntu0.11_all.deb 
+...
+Desempaquetando python3-django (2:2.2.12-1ubuntu0.11) ...
+Configurando python3-sqlparse (0.2.4-3) ...
+Configurando python3-django (2:2.2.12-1ubuntu0.11) ...
+Procesando disparadores para man-db (2.9.1-1) ...
+mint@mint-VivoBook-ASUSLaptop-X409DAP-M409DA:~$ django-admin
+
+Type 'django-admin help <subcommand>' for help on a specific subcommand.
+
+Available subcommands:
+
+[django]
+    check
+    compilemessages
+    createcachetable
+    dbshell
+    diffsettings
+    dumpdata
+    flush
+    inspectdb
+    loaddata
+    makemessages
+    makemigrations
+    migrate
+    runserver
+    sendtestemail
+    shell
+    showmigrations
+    sqlflush
+    sqlmigrate
+    sqlsequencereset
+    squashmigrations
+    startapp
+    startproject
+    test
+    testserver
+Note that only Django core commands are listed as settings are not properly configured (error: Requested setting INSTALLED_APPS, but settings are not configured. You must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure() before accessing settings.).
+mint@mint-VivoBook-ASUSLaptop-X409DAP-M409DA:~$ django-admin --version
+3.0
+mint@mint-VivoBook-ASUSLaptop-X409DAP-M409DA:~$ virtualenv --version
+
+Command 'virtualenv' not found, but can be installed with:
+
+sudo apt install python3-virtualenv
+
+mint@mint-VivoBook-ASUSLaptop-X409DAP-M409DA:~$ sudo apt install python3-virtualenv 
+Leyendo lista de paquetes... Hecho
+Creando árbol de dependencias       
+Leyendo la información de estado... Hecho
+Se instalarán los siguientes paquetes adicionales:
+  python3-appdirs python3-distlib python3-filelock
+  python3-importlib-metadata python3-more-itertools python3-zipp
+Se instalarán los siguientes paquetes NUEVOS:
+  python3-appdirs python3-distlib python3-filelock
+  python3-importlib-metadata python3-more-itertools
+  python3-virtualenv python3-zipp
+0 actualizados, 7 nuevos se instalarán, 0 para eliminar y 124 no actualizados.
+Se necesita descargar 252 kB de archivos.
+Se utilizarán 1.304 kB de espacio de disco adicional después de esta operación.
+¿Desea continuar? [S/n] s
+Des:1 http://archive.ubuntu.com/ubuntu focal/main amd64 python3-appdirs all 1.4.3-2.1 [10,8 kB]
+Des:2 http://archive.ubuntu.com/ubuntu focal/universe amd64 python3-distlib all 0.3.0-1 [116 kB]
+Des:3 http://archive.ubuntu.com/ubuntu focal/universe amd64 python3-filelock all 3.0.12-2 [7.948 B]
+Des:4 http://archive.ubuntu.com/ubuntu focal/main amd64 python3-more-itertools all 4.2.0-1build1 [39,4 kB]
+Des:5 http://archive.ubuntu.com/ubuntu focal/main amd64 python3-zipp all 1.0.0-1 [5.312 B]
+Des:6 http://archive.ubuntu.com/ubuntu focal/main amd64 python3-importlib-metadata all 1.5.0-1 [9.992 B]
+Des:7 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 python3-virtualenv all 20.0.17-1ubuntu0.4 [62,7 kB]
+Descargados 252 kB en 1s (348 kB/s)          
+Seleccionando el paquete python3-appdirs previamente no seleccionado.
+(Leyendo la base de datos ... 417422 ficheros o directorios instalados
+ actualmente.)
+Preparando para desempaquetar .../0-python3-appdirs_1.4.3-2.1_all.deb 
+...
+Desempaquetando python3-appdirs (1.4.3-2.1) ...
+Seleccionando el paquete python3-distlib previamente no seleccionado.
+Preparando para desempaquetar .../1-python3-distlib_0.3.0-1_all.deb ..
+.
+Desempaquetando python3-distlib (0.3.0-1) ...
+Seleccionando el paquete python3-filelock previamente no seleccionado.
+Preparando para desempaquetar .../2-python3-filelock_3.0.12-2_all.deb 
+...
+Desempaquetando python3-filelock (3.0.12-2) ...
+Seleccionando el paquete python3-more-itertools previamente no selecci
+onado.
+Preparando para desempaquetar .../3-python3-more-itertools_4.2.0-1buil
+d1_all.deb ...
+Desempaquetando python3-more-itertools (4.2.0-1build1) ...
+Seleccionando el paquete python3-zipp previamente no seleccionado.
+Preparando para desempaquetar .../4-python3-zipp_1.0.0-1_all.deb ...
+Desempaquetando python3-zipp (1.0.0-1) ...
+Seleccionando el paquete python3-importlib-metadata previamente no sel
+eccionado.
+Preparando para desempaquetar .../5-python3-importlib-metadata_1.5.0-1
+_all.deb ...
+Desempaquetando python3-importlib-metadata (1.5.0-1) ...
+Seleccionando el paquete python3-virtualenv previamente no seleccionad
+o.
+Preparando para desempaquetar .../6-python3-virtualenv_20.0.17-1ubuntu
+0.4_all.deb ...
+Desempaquetando python3-virtualenv (20.0.17-1ubuntu0.4) ...
+Configurando python3-more-itertools (4.2.0-1build1) ...
+Configurando python3-filelock (3.0.12-2) ...
+Configurando python3-distlib (0.3.0-1) ...
+Configurando python3-zipp (1.0.0-1) ...
+Configurando python3-appdirs (1.4.3-2.1) ...
+Configurando python3-importlib-metadata (1.5.0-1) ...
+Configurando python3-virtualenv (20.0.17-1ubuntu0.4) ...
+Procesando disparadores para man-db (2.9.1-1) ...
+mint@mint-VivoBook-ASUSLaptop-X409DAP-M409DA:~$ virtualenv --version
+virtualenv 20.0.17 from /usr/lib/python3/dist-packages/virtualenv/__init__.py
+mint@mint-VivoBook-ASUSLaptop-X409DAP-M409DA:~$ mkdir systempolls
+mint@mint-VivoBook-ASUSLaptop-X409DAP-M409DA:~$ cd systempolls
+mint@mint-VivoBook-ASUSLaptop-X409DAP-M409DA:~/systempolls$ virtualenv --version
+virtualenv 20.0.17 from /usr/lib/python3/dist-packages/virtualenv/__init__.py
+mint@mint-VivoBook-ASUSLaptop-X409DAP-M409DA:~/systempolls$ virtualenv -p python3 venv
+created virtual environment CPython3.8.10.final.0-64 in 293ms
+  creator CPython3Posix(dest=/home/mint/systempolls/venv, clear=False, global=False)
+  seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, pkg_resources=latest, via=copy, app_data_dir=/home/mint/.local/share/virtualenv/seed-app-data/v1.0.1.debian.1)
+  activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator
+mint@mint-VivoBook-ASUSLaptop-X409DAP-M409DA:~/systempolls$ source venv/bin/activate
+(venv) mint@mint-VivoBook-ASUSLaptop-X409DAP-M409DA:~/systempolls$ django-admin startproject systempolls .
+(venv) mint@mint-VivoBook-ASUSLaptop-X409DAP-M409DA:~/systempolls$ pip3 install django
+Collecting django
+  Downloading Django-4.0.4-py3-none-any.whl (8.0 MB)
+     |████████████████████████████████| 8.0 MB 476 kB/s 
+Collecting backports.zoneinfo; python_version < "3.9"
+  Downloading backports.zoneinfo-0.2.1-cp38-cp38-manylinux1_x86_64.whl (74 kB)
+     |████████████████████████████████| 74 kB 881 kB/s 
+Collecting sqlparse>=0.2.2
+  Using cached sqlparse-0.4.2-py3-none-any.whl (42 kB)
+Collecting asgiref<4,>=3.4.1
+  Using cached asgiref-3.5.0-py3-none-any.whl (22 kB)
+Installing collected packages: backports.zoneinfo, sqlparse, asgiref, django
+Successfully installed asgiref-3.5.0 backports.zoneinfo-0.2.1 django-4.0.4 sqlparse-0.4.2
+(venv) mint@mint-VivoBook-ASUSLaptop-X409DAP-M409DA:~/systempolls$ code .
+(venv) mint@mint-VivoBook-ASUSLaptop-X409DAP-M409DA:~/systempolls$ python3 manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+April 29, 2022 - 15:43:10
+Django version 4.0.4, using settings 'systempolls.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[29/Apr/2022 15:43:22] "GET / HTTP/1.1" 200 10697
+[29/Apr/2022 15:43:23] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[29/Apr/2022 15:43:23] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[29/Apr/2022 15:43:23] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[29/Apr/2022 15:43:23] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+Not Found: /favicon.ico
+[29/Apr/2022 15:43:23] "GET /favicon.ico HTTP/1.1" 404 2115
+[29/Apr/2022 22:01:16] "GET / HTTP/1.1" 200 10697
+[29/Apr/2022 22:01:18] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[29/Apr/2022 22:01:18] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[29/Apr/2022 22:01:18] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[29/Apr/2022 22:01:18] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+
