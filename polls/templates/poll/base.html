@@ -34,13 +34,14 @@
                     <ul class="nav navbar-nav">
                         <li><a href="{% url 'home' %}">Home</a></li>
                         <li><a href="{% url 'create' %}">Create</a></li>
+
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div>
         </nav>
     
         <div class="container">
-            <img align="center" src="https://user-images.githubusercontent.com/90289472/166124986-423f9d23-b979-4fbb-9c3d-8ee75bdaf78c.gif"/>
+             {% comment %} <img align="center" src="https://user-images.githubusercontent.com/90289472/166124986-423f9d23-b979-4fbb-9c3d-8ee75bdaf78c.gif"/> {% endcomment %}
             {% block main %}{% endblock %}
         </div>
         
