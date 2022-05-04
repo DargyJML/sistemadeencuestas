@@ -59,12 +59,11 @@ Instrucciones:
 
 🧭 Vote
 
-![vote](https://user-images.githubusercontent.com/90289472/166632536-314714df-21f0-4ddf-8c96-03c3f1f12125.png)
-
+![voteoption](https://user-images.githubusercontent.com/90289472/166632565-d8880097-77e1-4bd0-8982-dea27e6efd80.png)
 
 🧭 Results 
 
-![voteoption](https://user-images.githubusercontent.com/90289472/166632565-d8880097-77e1-4bd0-8982-dea27e6efd80.png)
+![vote](https://user-images.githubusercontent.com/90289472/166632536-314714df-21f0-4ddf-8c96-03c3f1f12125.png)
 
 
 
